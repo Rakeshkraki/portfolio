@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -51,15 +47,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "React Developer",
-    icon: mobile,
-  },
-
-  {
-    title: "DevOps",
-    icon: creator,
   },
 ];
 
@@ -173,11 +160,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Servlet",
+        name: "Spring Boot",
         color: "green-text-gradient",
       },
       {
-        name: "Jsp and JDBC",
+        name: "React",
         color: "pink-text-gradient",
       },
     ],

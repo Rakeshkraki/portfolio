@@ -48,10 +48,10 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled software developer with experience in Java and
-        JavaScript, and expertise in frameworks like React, NodeJs and 
-        SpringBoot. I'm a quick learner and collaborate  to create 
+        JavaScript, and expertise in frameworks like React and SpringBoot. 
+        I'm a quick learner and collaborate  to create 
         efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
