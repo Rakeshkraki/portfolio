@@ -22,6 +22,7 @@ import {
   Besanth,
   Fundamentals,
   java,
+  Spektra,
 } from "../assets";
 
 export const navLinks = [
@@ -41,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Java-Full Stack Developer",
+    title: ".NET ",
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack",
     icon: backend,
   },
 ];
@@ -116,12 +117,25 @@ const experiences = [
     company_name: "Besant Technologis",
     icon: Besanth,
     iconBg: "#383E56",
-    date: "Jan 2022 - present",
+    date: "Jun 2023- Feb 2024",
     points: [
       "Developing and maintaining web applications using Java and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "SDE Intern",
+    company_name: "Spektra Systems LLC",
+    icon: Spektra,
+    iconBg: "#383E56",
+    date: "Mar 2024 - Jul 2024 ",
+    points: [
+      "Developed and maintained web applications using ASP.NET, C#, and ADO.NET.",
+      "Designed and implemented front-end features with HTML, CSS, JavaScript, and AngularJS, ensuring responsive and user-friendly interfaces.",
+      "Built and consumed Web API Core services for robust and scalable back-end solutions",
+      "Worked with SQL Server for database design, writing complex queries, and ensuring data integrity. ",
     ],
   },
 ];
@@ -130,20 +144,20 @@ const testimonials = [];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Online Banking",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed an online banking platform with features such as account management, fund transfers, and transaction history. Collaborated with a team to meet project deadlines and improve user experience",
     tags: [
       {
-        name: "react",
+        name: "ASP.NET",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Angular",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Sql server",
         color: "pink-text-gradient",
       },
     ],
@@ -151,20 +165,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Employee Management",
+    name: "Lab Translator",
     description:
-      "java Web application that enables users to Create, Search and Edit Employee details view estimated salary ranges for positions and Departments",
+      "Developed a robust platform, Lab Exchanger Using Azure Service, for seamless exchange of lab resources. ",
     tags: [
       {
-        name: "Java",
+        name: "ASP.NET",
         color: "blue-text-gradient",
       },
       {
-        name: "Spring Boot",
+        name: "Angular",
         color: "green-text-gradient",
       },
       {
-        name: "React",
+        name: "Azure Cognitive Service",
         color: "pink-text-gradient",
       },
     ],
